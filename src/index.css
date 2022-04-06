@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #2a75bb;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title {
+font-size: 35px;
+color:#c7a008;
+border: 4px solid  #3c5aa6;
+background-color:  #3c5aa6;
+border-radius: 5px;
+min-width: 160px;
+text-align: center;
+box-shadow: rgba(150, 150, 111, 0.4) 0px 14px 50px 0px;
+}
+
+
+.rock {
+  background-color: rgb(148, 81, 81);
+}
+.ghost {
+  background-color: rgb(60, 9, 66);
+}
+.electric {
+  background-color: rgb(216, 216, 44);
+}
+.bug {
+  background-color: #d3f752;
+}
+.poison {
+  background-color: #4d1961;
+}
+.normal {
+  background-color: #F4F4F4;
+}
+.fairy {
+  background-color: rgba(236, 13, 169, 0.863);
+}
+.fire {
+  background-color: #e25137;
+}
+.grass {
+  background-color:#47cc43;
+}
+.water {
+  background-color:#60a9dd;
+}
+
+.ground {
+  background-color: rgb(168, 57, 57);
+}
+
+.dark {
+  background-color: rgb(75, 71, 71);
+}
+
+.steel {
+  background-color: #8f8e8e;
+}
+
+.ice {
+  background-color: #b2daf7;
+}
+
+.fighting {
+  background-color: #fff597;
+}
+
+.psychic {
+  background-color: #a061b9;
+}
+
+.dragon {
+  background-color: #e78f1b;
+}
+
+.app-contaner {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3rem 0.5rem;
+}
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.all-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.thumb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3px ;
+  margin: 1px;
+  border: 4px solid #c7a008;
+  border-radius: 0.2rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+}
+h3 {
+  margin-bottom: 3px ;
+}
+.thumb-container .number {
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  background-color: rgba(255,255,255,0.3);
+}
+.thumb-container img {
+  width: 120px;
+  height: 120px;
+}
+.thumb-container small {
+  text-transform: capitalize;
+}
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.detail-wrapper button {
+  color: rgb(22, 22, 22);
+  padding: .10px;
+  margin-top: 2px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+.load-more {
+  background: rgba(238, 241, 3, 0.5) repeat-x;
+  border-radius: 2px;
+  border: 1px solid #c6c6c6;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem 1.5rem;
+  min-width: 50%;
+  margin-top: 1rem;
+}
